@@ -1,0 +1,10 @@
+.sidenav {
+  padding-top: 1.5rem;
+}
+
+.sidenav li>a.btn-floating {
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  margin: 10px 32px;
+}
