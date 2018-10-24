@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default () => (
   <Fragment>
     <li>
-      <NavLink className='grey-text text-lighten-4' to='/'>New Post</NavLink>
+      <NavLink className='grey-text text-lighten-4' to='/post/create'>New Post</NavLink>
     </li>
     <li>
       <NavLink className='grey-text text-lighten-4' to='/'>Logout</NavLink>
