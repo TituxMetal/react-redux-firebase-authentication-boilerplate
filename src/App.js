@@ -6,6 +6,7 @@ import Dashboard from './containers/Dashboard';
 import PostDetails from './containers/PostDetails';
 import Login from './containers/Login';
 import Register from './containers/Register';
+import PostCreate from './containers/PostCreate';
 
 export default () => (
   <BrowserRouter>
@@ -13,6 +14,7 @@ export default () => (
       <Navbar />
       <Switch>
         <Route path='/' exact component={Dashboard} />
+        <Route path='/post/create' component={PostCreate} />
         <Route path='/post/:id' component={PostDetails} />
         <Route path='/login' component={Login} />
         <Route path='/register' component={Register} />
