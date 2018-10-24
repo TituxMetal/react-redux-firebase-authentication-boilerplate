@@ -1,6 +1,5 @@
 import React from 'react'
 
-import './AuthForm.css'
 import AuthButton from './AuthButton'
 
 export default ({ changeHandler, submitHandler }) => {
