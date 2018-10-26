@@ -1,0 +1,3 @@
+export {
+  createPost
+} from './post'
