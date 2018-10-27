@@ -13,6 +13,9 @@ export default (state = initState, action = {}) => {
     case actionTypes.ADD_POST:
       console.log('post created', action.post, state)
       return state
+    case actionTypes.ADD_POST_ERROR:
+      console.log('add post error', action.error)
+      return state
     default:
       return state
   }
